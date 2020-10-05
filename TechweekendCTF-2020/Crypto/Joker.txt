@@ -1,0 +1,47 @@
+Joker
+
+Are you laughing with me or at me?
+
+File out.txt (included at the end)
+
+Writeup:
+The give file consists of 'o' and 'l' chatacters. These are simply the 0 and 1 from binary, hence it is a binary encoded message.
+Replacing the 'o' and 'l' with 0 and 1 using the command
+cat out.txt | sed 's/o/0/g' | sed 's/l/1/g'
+Then convert binary to ascii string using any online tool
+
+TECHWKND{d0nT_M0cK_m3_pLz_BXq8t}
+
+out.txt:
+olololoo
+olooolol
+olooooll
+oloolooo
+olololll
+oloololl
+oloolllo
+oloooloo
+olllloll
+ollooloo
+oolloooo
+ollolllo
+olololoo
+ololllll
+oloollol
+oolloooo
+olloooll
+oloololl
+ololllll
+ollollol
+oollooll
+ololllll
+ollloooo
+oloolloo
+ollllolo
+ololllll
+oloooolo
+olollooo
+ollloool
+oolllooo
+ollloloo
+olllllol
