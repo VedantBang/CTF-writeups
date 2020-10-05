@@ -1,0 +1,12 @@
+Inspector Gadget
+
+Put your tools to some use
+https://cte.bitskrieg.org/web_chall1/index.html
+
+Writeup:
+
+After opening the webpage, it greets your with a screen asking you to enter the username.
+On looking into the source code, I found a script inside the header, called script.js
+The flag was inside script.js (although they intended a different process to get to the flag)
+
+TECHWKND{Th1s_1s_th3_D3rypt3D_Fl4g}

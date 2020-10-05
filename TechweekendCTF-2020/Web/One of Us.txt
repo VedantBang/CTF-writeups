@@ -1,0 +1,20 @@
+One of Us
+
+Sorry, we only allow leet people into our club who can afford the best devices
+
+WARNING: This challenge involves a fake flag.
+
+https://cte.bitskrieg.org/web_chall2/index.html
+
+Writeup:
+The landing page says "Special Coupon for our most Elite members!" and has a link "Click here to receive Special Coupon!!"
+Clicking the link takes you to a page which says TECHWKND{y0u_n0t_th4t_sm4rt} which is the fake flag.
+
+Looking at the source code there is a script file https://cte.bitskrieg.org/web_chall2/main.b3fa6e8c66e20f103ac6.js
+
+The script file has minified code, and on the second last line, there is a statement:
+window.location.replace('./fYWBLFU.html')
+
+Going to /fYWBLFU.html we get the real flag
+
+TECHWKND{y0u_sm4rt_b0i}

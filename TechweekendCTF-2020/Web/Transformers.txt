@@ -1,0 +1,20 @@
+Transformers
+
+If an Italian Autobot is hungry, does he drink olive oil?
+https://cte.bitskrieg.org/web_chall3/index.html
+
+Writeup:
+
+The landing page has certain phrases: "OOPS NO ONE FOUND!" and "WHERE ARE THE ROBOTS???".
+Taking idea from these, I open https://cte.bitskrieg.org/web_chall3/robots.txt
+which says:
+User-agent: *
+Disallow: /vinegar_recipe.html
+
+"vinegar" suggests that a vignere cipher follows.
+On opening /vinegar_recipe.html we get
+FEPTWXZD{rmsl_dooatf_fxg_5120}
+
+We know that FEPTWXZD corresponds to TECHWKND. Using the Vignere table, the key is found to be MAN
+
+TECHWKND{easy_robots_txt_5120}

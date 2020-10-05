@@ -1,0 +1,12 @@
+CTF Ruleszzz!!
+
+Good things come to those who follow the rules :)
+
+https://cte.bitskrieg.org/rules
+
+Writeup:
+Under the rules is a statement
+"Now for your prize: shift "i_have_read_the_rules" by +3 through a Caesar Cipher and enclose it in TECHWKND{....} to get your flag"
+
+Shifting through 3 using Caeser cipher, we get the flag
+TECHWKND{l_kdyh_uhdg_wkh_uxohv}
